@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20" started-at="2016-04-01T05:57:53Z" finished-at="2016-04-01T05:57:53Z">
+  <suite name="Default suite" duration-ms="20" started-at="2016-04-01T11:59:16Z" finished-at="2016-04-01T11:59:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20" started-at="2016-04-01T05:57:53Z" finished-at="2016-04-01T05:57:53Z">
-      <class name="com.compro.testng.selenium.TestExtractElementsCfg">
-        <test-method status="FAIL" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:com.compro.testng.selenium.TestExtractElementsCfg@d861b7]" name="initDriver" is-config="true" duration-ms="0" started-at="2016-04-01T11:27:53Z" finished-at="2016-04-01T11:27:53Z">
+    <test name="Default test" duration-ms="20" started-at="2016-04-01T11:59:16Z" finished-at="2016-04-01T11:59:16Z">
+      <class name="com.testng.selenium.TestExtractElementsCfg">
+        <test-method status="FAIL" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:com.testng.selenium.TestExtractElementsCfg@1342097]" name="initDriver" is-config="true" duration-ms="0" started-at="2016-04-01T17:29:16Z" finished-at="2016-04-01T17:29:16Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by @Configuration on method initDriver but has not been marked @Optional or defined
-in C:\Users\AbhishekK\AppData\Local\Temp\testng-eclipse--1897824852\testng-customsuite.xml]]>
+in C:\Users\AbhishekK\AppData\Local\Temp\testng-eclipse-1486292516\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by @Configuration on method initDriver but has not been marked @Optional or defined
-in C:\Users\AbhishekK\AppData\Local\Temp\testng-eclipse--1897824852\testng-customsuite.xml
+in C:\Users\AbhishekK\AppData\Local\Temp\testng-eclipse-1486292516\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
@@ -43,15 +43,15 @@ in C:\Users\AbhishekK\AppData\Local\Temp\testng-eclipse--1897824852\testng-custo
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="SKIP" signature="searchTestExtractElements()[pri:0, instance:com.compro.testng.selenium.TestExtractElementsCfg@d861b7]" name="searchTestExtractElements" duration-ms="3" started-at="2016-04-01T11:27:53Z" finished-at="2016-04-01T11:27:53Z">
+        <test-method status="SKIP" signature="searchTestExtractElements()[pri:0, instance:com.testng.selenium.TestExtractElementsCfg@1342097]" name="searchTestExtractElements" duration-ms="4" started-at="2016-04-01T17:29:16Z" finished-at="2016-04-01T17:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTestExtractElements -->
-        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:com.compro.testng.selenium.TestExtractElementsCfg@d861b7]" name="quitDriver" is-config="true" duration-ms="0" started-at="2016-04-01T11:27:53Z" finished-at="2016-04-01T11:27:53Z">
+        <test-method status="SKIP" signature="quitDriver()[pri:0, instance:com.testng.selenium.TestExtractElementsCfg@1342097]" name="quitDriver" is-config="true" duration-ms="0" started-at="2016-04-01T17:29:16Z" finished-at="2016-04-01T17:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.compro.testng.selenium.TestExtractElementsCfg -->
+      </class> <!-- com.testng.selenium.TestExtractElementsCfg -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

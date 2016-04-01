@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.compro.testng.selenium.TestExtractElementsCfg">
+      <class name="com.testng.selenium.TestExtractElementsCfg">
         <methods>
           <include name="searchTestExtractElements"/>
         </methods>
-      </class> <!-- com.compro.testng.selenium.TestExtractElementsCfg -->
+      </class> <!-- com.testng.selenium.TestExtractElementsCfg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
