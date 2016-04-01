@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgSeleniumSuite" parallel="false">
+	<test name="TestNgSeleniumChromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="driverPath" value="src/test/resources/chromedriver.exe"></parameter>
+		<classes>
+			<class
+				name="com.testng.selenium.TestExtractElementsCfg" />
+		</classes>
+	</test>
+
+<!-- 	<test name="TestNgSeleniumFirefoxTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class
+				name="com.testng.selenium.TestExtractElementsCfg" />
+		</classes>
+	</test> -->
+</suite>

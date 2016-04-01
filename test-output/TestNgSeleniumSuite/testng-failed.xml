@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNgSeleniumSuite]">
+  <test name="TestNgSeleniumTest(failed)">
+    <classes>
+      <class name="com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="searchGoogle" invocation-numbers="0 1"/>
+          <include name="printBrowserUsed"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="quitDriver"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample -->
+    </classes>
+  </test> <!-- TestNgSeleniumTest(failed) -->
+</suite> <!-- Failed suite [TestNgSeleniumSuite] -->

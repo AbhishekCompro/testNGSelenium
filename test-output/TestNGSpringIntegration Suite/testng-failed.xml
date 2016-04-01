@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGSpringIntegration Suite]">
+  <test name="TestNGSpringIntegrationTest(failed)">
+    <classes>
+      <class name="com.javacodegeeks.testng.spring.SpringTestNGJpaExample">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="insertEmployee"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+        </methods>
+      </class> <!-- com.javacodegeeks.testng.spring.SpringTestNGJpaExample -->
+    </classes>
+  </test> <!-- TestNGSpringIntegrationTest(failed) -->
+</suite> <!-- Failed suite [TestNGSpringIntegration Suite] -->
